@@ -48,8 +48,7 @@ echo "SUCCESS: Source pushed successfully to the scratch org!"
 echo ""
 echo "Assigning the project permission set to the default scratch org user..."
 echo ""
-echo "TODO: Define app permission sets then uncomment the below."
-# sfdx force:user:permset:assign -n ${PERMSET_NAME} --json
+sfdx force:user:permset:assign -n ${PERMSET_NAME} --json
 echo ""
 if [ "$?" = "1" ]
 then
