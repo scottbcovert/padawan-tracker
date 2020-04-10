@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PercentWeightGainFromFeeding__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+NOT(ISBLANK(InitialWeight__c)),
+NOT(ISBLANK(PostFeedingWeight__c)),
+InitialWeight__c &gt; 0),
+WeightGainFromFeeding__c/InitialWeight__c,
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>% Weight Gain From Feeding</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>
