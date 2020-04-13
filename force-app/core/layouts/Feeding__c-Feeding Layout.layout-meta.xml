@@ -17,6 +17,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Occurred__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Type__c</field>
             </layoutItems>
         </layoutColumns>
