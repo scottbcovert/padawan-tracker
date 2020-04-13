@@ -1,0 +1,28 @@
+.timeline-wrapper {
+    max-height: 45vh;
+    overflow: auto;
+}
+
+.timeline__wrap {
+    z-index: auto;
+}
+
+.icon-baby-bottle::after {
+    content: '\1F37C';
+}
+
+.icon-sweat-drops::after {
+    content: '\1F4A6';
+}
+
+.icon-poop::after {
+    content: '\1F4A9';
+}
+
+.icon-scales::after {
+    content: '\2696';
+}
+
+.icon-fuel-pump::after {
+    content: '\26FD';
+}

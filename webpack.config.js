@@ -5,6 +5,7 @@ module.exports = {
     mode: process.env.NODE_ENV,
     entry: {
         timeline: [
+            './node_modules/timeline/dist/css/fontawesome.min.css',
             './node_modules/timeline/dist/css/timeline.min.css',
             './node_modules/timeline/dist/images/arrow-left.svg',
             './node_modules/timeline/dist/images/arrow-right.svg'
