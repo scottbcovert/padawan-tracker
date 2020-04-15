@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AverageTimeInHoursBetweenDiaperChanges__c</fullName>
+    <externalId>false</externalId>
+    <formula>((TimeOfLastDiaperChange__c - TimeOfFirstDiaperChange__c) /  NumberOfDiaperChanges__c) * 24</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Avg # of Hours Between Diaper Changes</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

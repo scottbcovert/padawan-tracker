@@ -20,6 +20,22 @@
                 <behavior>Edit</behavior>
                 <field>BirthWeight__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>AverageTimeInHoursBetweenFeedings__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ExpectedTimeOfNextFeeding__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>AverageTimeInHoursBetweenDiaperChanges__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ExpectedTimeOfNextDiaperChange__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
