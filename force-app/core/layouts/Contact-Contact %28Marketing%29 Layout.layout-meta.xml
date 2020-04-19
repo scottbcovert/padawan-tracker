@@ -22,7 +22,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>AverageTimeInHoursBetweenFeedings__c</field>
+                <field>AverageHoursBetweenFeedings__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -30,11 +30,19 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>AverageTimeInHoursBetweenDiaperChanges__c</field>
+                <field>AverageHoursBetweenDiaperChanges__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ExpectedTimeOfNextDiaperChange__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>HoursSinceLastFeeding__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>HoursSinceLastDiaperChange__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

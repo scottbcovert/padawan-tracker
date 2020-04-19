@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ExpectedTimeOfNextDiaperChange__c</fullName>
     <externalId>false</externalId>
-    <formula>TimeOfLastDiaperChange__c + (AverageTimeInHoursBetweenDiaperChanges__c / 24)</formula>
+    <formula>TimeOfLastDiaperChange__c + (AverageHoursBetweenDiaperChanges__c / 24)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Expected Time of Next Diaper Change</label>
     <required>false</required>

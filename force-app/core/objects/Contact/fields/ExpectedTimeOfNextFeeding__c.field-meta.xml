@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ExpectedTimeOfNextFeeding__c</fullName>
     <externalId>false</externalId>
-    <formula>TimeOfLastFeeding__c + (AverageTimeInHoursBetweenFeedings__c / 24)</formula>
+    <formula>TimeOfLastFeeding__c + (AverageHoursBetweenFeedings__c / 24)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Expected Time of Next Feeding</label>
     <required>false</required>

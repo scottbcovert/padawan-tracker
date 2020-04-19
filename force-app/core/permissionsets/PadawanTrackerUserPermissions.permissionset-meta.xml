@@ -22,12 +22,12 @@
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.AverageTimeInHoursBetweenDiaperChanges__c</field>
+        <field>Contact.AverageHoursBetweenDiaperChanges__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.AverageTimeInHoursBetweenFeedings__c</field>
+        <field>Contact.AverageHoursBetweenFeedings__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -48,6 +48,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.ExpectedTimeOfNextFeeding__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HoursSinceLastDiaperChange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HoursSinceLastFeeding__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
