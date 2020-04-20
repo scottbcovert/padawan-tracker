@@ -12,6 +12,11 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Bottle</fullName>
+                <default>false</default>
+                <label>Bottle</label>
+            </value>
+            <value>
                 <fullName>Left</fullName>
                 <default>false</default>
                 <label>Left</label>
