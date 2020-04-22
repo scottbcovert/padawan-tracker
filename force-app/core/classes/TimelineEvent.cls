@@ -17,7 +17,9 @@ public with sharing class TimelineEvent implements Comparable {
             }
             when Feeding__c f {
                 this.eventDate = f.Occurred__c;
-                this.title = 'Feeding (' + f.Type__c + ')';
+                this.title = 'Feeding (' + f.Type__c
+                    + (f.Amount__c != null ? (' - ' + f.Amount__c + ' oz') : '')
+                    + ')';
                 this.type = 'feeding';
             }
             when Weighing__c w {

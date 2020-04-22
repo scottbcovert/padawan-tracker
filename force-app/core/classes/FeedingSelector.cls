@@ -7,7 +7,8 @@ public with sharing class FeedingSelector {
             Name,
             Baby__c,
             Occurred__c,
-            Type__c
+            Type__c,
+            Amount__c
             FROM Feeding__c
             WHERE Baby__c = :babyId
         ]);
